@@ -1,41 +1,53 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #e5e5e5;
   text-align: center;
   margin: 0;
   padding: 20px;
 }
 
 h1 {
-  margin-bottom: 15px;
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
+/* CARD FIX */
 .card {
-  background: #ffffff;
-  border-radius: 5px;
-  padding: 25px;
-  max-width: 350px;
+  background: white;
+  max-width: 400px;
   margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* IMAGE FIX (THIS IS YOUR MAIN ISSUE) */
 .card img {
   width: 100%;
-  border-radius: 5px;
-  margin-bottom: 15px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
 }
 
+/* TEXT */
 .card p {
   font-size: 16px;
   color: #333;
-  line-height: 1.5;
-  margin-bottom: 15px;
+  line-height: 1.6;
+  margin: 20px 0;
 }
 
+/* BUTTON */
 button {
-  background-color: #EE5921;
+  background-color: #f15a24;
   color: white;
+  border: none;
   padding: 12px 24px;
-  border-radius: 8px;
   font-size: 16px;
+  border-radius: 8px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #d94e1f;
 }
